@@ -9,5 +9,4 @@ JS Applications course from JS Core module - Software University
 4. Routing and Architecture
 5. Templating
 6. Webpack
-7. Design Patterns and Best Practices
-8. JS for Frond-End
+7. JS for Frond-End
