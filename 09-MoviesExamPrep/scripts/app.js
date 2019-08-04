@@ -16,6 +16,7 @@ const app = Sammy('#container', function () {
     this.get('#/userMovies', movieController.getUserMovies);
     this.get('#/cinemaMovies', movieController.getCinemaMovies);
     this.get('#/addMovies', movieController.getAddMovies);
+    this.get('#/detailsMovie/:id', movieController.getDetailsMovie);
 
     this.post('#/addMovie', movieController.postAddMovie);
 });

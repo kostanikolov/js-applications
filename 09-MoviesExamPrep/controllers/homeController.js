@@ -1,5 +1,6 @@
 const homeController = function () {
     const getHome = async function (context) {
+        console.log(context);
         helper.addHeaderInfo(context);
 
         context.loadPartials({
